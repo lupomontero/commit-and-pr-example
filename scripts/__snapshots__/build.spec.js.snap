@@ -1,0 +1,1309 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`build.update should fail to create PR request error 1`] = `
+Array [
+  "npm",
+  Array [
+    "run",
+    "update",
+  ],
+  Object {
+    "env": Object {
+      "GH_TOKEN": "xxx",
+      "TRAVIS_REPO_SLUG": "some/repo",
+    },
+    "stdio": Array [
+      "ignore",
+      OutStream {
+        "_events": Object {},
+        "_eventsCount": 0,
+        "_maxListeners": undefined,
+        "_writableState": WritableState {
+          "bufferProcessing": false,
+          "bufferedRequest": null,
+          "bufferedRequestCount": 0,
+          "corked": 0,
+          "corkedRequestsFree": Object {
+            "entry": null,
+            "finish": [Function],
+            "next": null,
+          },
+          "decodeStrings": true,
+          "defaultEncoding": "utf8",
+          "destroyed": false,
+          "emitClose": true,
+          "ended": false,
+          "ending": false,
+          "errorEmitted": false,
+          "finalCalled": false,
+          "finished": false,
+          "highWaterMark": 16384,
+          "lastBufferedRequest": null,
+          "length": 0,
+          "needDrain": false,
+          "objectMode": false,
+          "onwrite": [Function],
+          "pendingcb": 0,
+          "prefinished": false,
+          "sync": true,
+          "writecb": null,
+          "writelen": 0,
+          "writing": false,
+        },
+        "chunks": Array [],
+        "writable": true,
+      },
+    ],
+  },
+]
+`;
+
+exports[`build.update should fail to create PR request error 2`] = `
+Array [
+  "git",
+  Array [
+    "diff-index",
+    "--quiet",
+    "HEAD",
+    "--",
+  ],
+  Object {
+    "env": Object {
+      "GH_TOKEN": "xxx",
+      "TRAVIS_REPO_SLUG": "some/repo",
+    },
+    "stdio": Array [
+      "ignore",
+      OutStream {
+        "_events": Object {},
+        "_eventsCount": 0,
+        "_maxListeners": undefined,
+        "_writableState": WritableState {
+          "bufferProcessing": false,
+          "bufferedRequest": null,
+          "bufferedRequestCount": 0,
+          "corked": 0,
+          "corkedRequestsFree": Object {
+            "entry": null,
+            "finish": [Function],
+            "next": null,
+          },
+          "decodeStrings": true,
+          "defaultEncoding": "utf8",
+          "destroyed": false,
+          "emitClose": true,
+          "ended": false,
+          "ending": false,
+          "errorEmitted": false,
+          "finalCalled": false,
+          "finished": false,
+          "highWaterMark": 16384,
+          "lastBufferedRequest": null,
+          "length": 0,
+          "needDrain": false,
+          "objectMode": false,
+          "onwrite": [Function],
+          "pendingcb": 0,
+          "prefinished": false,
+          "sync": true,
+          "writecb": null,
+          "writelen": 0,
+          "writing": false,
+        },
+        "chunks": Array [],
+        "writable": true,
+      },
+    ],
+  },
+]
+`;
+
+exports[`build.update should fail to create PR request error 3`] = `
+Array [
+  "git",
+  Array [
+    "config",
+    "--global",
+    "user.email",
+    "travis@travis-ci.org",
+  ],
+  Object {
+    "env": Object {
+      "GH_TOKEN": "xxx",
+      "TRAVIS_REPO_SLUG": "some/repo",
+    },
+    "stdio": Array [
+      "ignore",
+      OutStream {
+        "_events": Object {},
+        "_eventsCount": 0,
+        "_maxListeners": undefined,
+        "_writableState": WritableState {
+          "bufferProcessing": false,
+          "bufferedRequest": null,
+          "bufferedRequestCount": 0,
+          "corked": 0,
+          "corkedRequestsFree": Object {
+            "entry": null,
+            "finish": [Function],
+            "next": null,
+          },
+          "decodeStrings": true,
+          "defaultEncoding": "utf8",
+          "destroyed": false,
+          "emitClose": true,
+          "ended": false,
+          "ending": false,
+          "errorEmitted": false,
+          "finalCalled": false,
+          "finished": false,
+          "highWaterMark": 16384,
+          "lastBufferedRequest": null,
+          "length": 0,
+          "needDrain": false,
+          "objectMode": false,
+          "onwrite": [Function],
+          "pendingcb": 0,
+          "prefinished": false,
+          "sync": true,
+          "writecb": null,
+          "writelen": 0,
+          "writing": false,
+        },
+        "chunks": Array [],
+        "writable": true,
+      },
+    ],
+  },
+]
+`;
+
+exports[`build.update should fail to create PR request error 4`] = `
+Array [
+  "git",
+  Array [
+    "config",
+    "--global",
+    "user.name",
+    "Travis CI",
+  ],
+  Object {
+    "env": Object {
+      "GH_TOKEN": "xxx",
+      "TRAVIS_REPO_SLUG": "some/repo",
+    },
+    "stdio": Array [
+      "ignore",
+      OutStream {
+        "_events": Object {},
+        "_eventsCount": 0,
+        "_maxListeners": undefined,
+        "_writableState": WritableState {
+          "bufferProcessing": false,
+          "bufferedRequest": null,
+          "bufferedRequestCount": 0,
+          "corked": 0,
+          "corkedRequestsFree": Object {
+            "entry": null,
+            "finish": [Function],
+            "next": null,
+          },
+          "decodeStrings": true,
+          "defaultEncoding": "utf8",
+          "destroyed": false,
+          "emitClose": true,
+          "ended": false,
+          "ending": false,
+          "errorEmitted": false,
+          "finalCalled": false,
+          "finished": false,
+          "highWaterMark": 16384,
+          "lastBufferedRequest": null,
+          "length": 0,
+          "needDrain": false,
+          "objectMode": false,
+          "onwrite": [Function],
+          "pendingcb": 0,
+          "prefinished": false,
+          "sync": true,
+          "writecb": null,
+          "writelen": 0,
+          "writing": false,
+        },
+        "chunks": Array [],
+        "writable": true,
+      },
+    ],
+  },
+]
+`;
+
+exports[`build.update should fail to create PR request error 5`] = `
+Array [
+  "git",
+  Array [
+    "add",
+    ".",
+  ],
+  Object {
+    "env": Object {
+      "GH_TOKEN": "xxx",
+      "TRAVIS_REPO_SLUG": "some/repo",
+    },
+    "stdio": Array [
+      "ignore",
+      OutStream {
+        "_events": Object {},
+        "_eventsCount": 0,
+        "_maxListeners": undefined,
+        "_writableState": WritableState {
+          "bufferProcessing": false,
+          "bufferedRequest": null,
+          "bufferedRequestCount": 0,
+          "corked": 0,
+          "corkedRequestsFree": Object {
+            "entry": null,
+            "finish": [Function],
+            "next": null,
+          },
+          "decodeStrings": true,
+          "defaultEncoding": "utf8",
+          "destroyed": false,
+          "emitClose": true,
+          "ended": false,
+          "ending": false,
+          "errorEmitted": false,
+          "finalCalled": false,
+          "finished": false,
+          "highWaterMark": 16384,
+          "lastBufferedRequest": null,
+          "length": 0,
+          "needDrain": false,
+          "objectMode": false,
+          "onwrite": [Function],
+          "pendingcb": 0,
+          "prefinished": false,
+          "sync": true,
+          "writecb": null,
+          "writelen": 0,
+          "writing": false,
+        },
+        "chunks": Array [],
+        "writable": true,
+      },
+    ],
+  },
+]
+`;
+
+exports[`build.update should fail to create PR request error 6`] = `
+Array [
+  "git",
+  Array [
+    "commit",
+    "-m",
+    "\\"chore(house-keeping): Updates date\\"",
+  ],
+  Object {
+    "env": Object {
+      "GH_TOKEN": "xxx",
+      "TRAVIS_REPO_SLUG": "some/repo",
+    },
+    "stdio": Array [
+      "ignore",
+      OutStream {
+        "_events": Object {},
+        "_eventsCount": 0,
+        "_maxListeners": undefined,
+        "_writableState": WritableState {
+          "bufferProcessing": false,
+          "bufferedRequest": null,
+          "bufferedRequestCount": 0,
+          "corked": 0,
+          "corkedRequestsFree": Object {
+            "entry": null,
+            "finish": [Function],
+            "next": null,
+          },
+          "decodeStrings": true,
+          "defaultEncoding": "utf8",
+          "destroyed": false,
+          "emitClose": true,
+          "ended": false,
+          "ending": false,
+          "errorEmitted": false,
+          "finalCalled": false,
+          "finished": false,
+          "highWaterMark": 16384,
+          "lastBufferedRequest": null,
+          "length": 0,
+          "needDrain": false,
+          "objectMode": false,
+          "onwrite": [Function],
+          "pendingcb": 0,
+          "prefinished": false,
+          "sync": true,
+          "writecb": null,
+          "writelen": 0,
+          "writing": false,
+        },
+        "chunks": Array [],
+        "writable": true,
+      },
+    ],
+  },
+]
+`;
+
+exports[`build.update should fail to create PR request error 7`] = `
+Array [
+  "git",
+  Array [
+    "remote",
+    "add",
+    "origin-with-token",
+    "https://xxx@github.com/some/repo.git",
+  ],
+  Object {
+    "env": Object {
+      "GH_TOKEN": "xxx",
+      "TRAVIS_REPO_SLUG": "some/repo",
+    },
+    "stdio": Array [
+      "ignore",
+      OutStream {
+        "_events": Object {},
+        "_eventsCount": 0,
+        "_maxListeners": undefined,
+        "_writableState": WritableState {
+          "bufferProcessing": false,
+          "bufferedRequest": null,
+          "bufferedRequestCount": 0,
+          "corked": 0,
+          "corkedRequestsFree": Object {
+            "entry": null,
+            "finish": [Function],
+            "next": null,
+          },
+          "decodeStrings": true,
+          "defaultEncoding": "utf8",
+          "destroyed": false,
+          "emitClose": true,
+          "ended": false,
+          "ending": false,
+          "errorEmitted": false,
+          "finalCalled": false,
+          "finished": false,
+          "highWaterMark": 16384,
+          "lastBufferedRequest": null,
+          "length": 0,
+          "needDrain": false,
+          "objectMode": false,
+          "onwrite": [Function],
+          "pendingcb": 0,
+          "prefinished": false,
+          "sync": true,
+          "writecb": null,
+          "writelen": 0,
+          "writing": false,
+        },
+        "chunks": Array [],
+        "writable": true,
+      },
+    ],
+  },
+]
+`;
+
+exports[`build.update should fail to create PR request error 8`] = `
+Object {
+  "headers": Object {
+    "Authorization": "token xxx",
+    "Content-Length": 75,
+    "Content-Type": "application/json",
+  },
+  "hostname": "api.github.com",
+  "method": "POST",
+  "path": "/repos/some/repo/pulls",
+  "port": 443,
+}
+`;
+
+exports[`build.update should reject when PR request statusCode > 201 1`] = `
+Array [
+  "npm",
+  Array [
+    "run",
+    "update",
+  ],
+  Object {
+    "env": Object {
+      "GH_TOKEN": "xxx",
+      "TRAVIS_REPO_SLUG": "some/repo",
+    },
+    "stdio": Array [
+      "ignore",
+      OutStream {
+        "_events": Object {},
+        "_eventsCount": 0,
+        "_maxListeners": undefined,
+        "_writableState": WritableState {
+          "bufferProcessing": false,
+          "bufferedRequest": null,
+          "bufferedRequestCount": 0,
+          "corked": 0,
+          "corkedRequestsFree": Object {
+            "entry": null,
+            "finish": [Function],
+            "next": null,
+          },
+          "decodeStrings": true,
+          "defaultEncoding": "utf8",
+          "destroyed": false,
+          "emitClose": true,
+          "ended": false,
+          "ending": false,
+          "errorEmitted": false,
+          "finalCalled": false,
+          "finished": false,
+          "highWaterMark": 16384,
+          "lastBufferedRequest": null,
+          "length": 0,
+          "needDrain": false,
+          "objectMode": false,
+          "onwrite": [Function],
+          "pendingcb": 0,
+          "prefinished": false,
+          "sync": true,
+          "writecb": null,
+          "writelen": 0,
+          "writing": false,
+        },
+        "chunks": Array [],
+        "writable": true,
+      },
+    ],
+  },
+]
+`;
+
+exports[`build.update should reject when PR request statusCode > 201 2`] = `
+Array [
+  "git",
+  Array [
+    "diff-index",
+    "--quiet",
+    "HEAD",
+    "--",
+  ],
+  Object {
+    "env": Object {
+      "GH_TOKEN": "xxx",
+      "TRAVIS_REPO_SLUG": "some/repo",
+    },
+    "stdio": Array [
+      "ignore",
+      OutStream {
+        "_events": Object {},
+        "_eventsCount": 0,
+        "_maxListeners": undefined,
+        "_writableState": WritableState {
+          "bufferProcessing": false,
+          "bufferedRequest": null,
+          "bufferedRequestCount": 0,
+          "corked": 0,
+          "corkedRequestsFree": Object {
+            "entry": null,
+            "finish": [Function],
+            "next": null,
+          },
+          "decodeStrings": true,
+          "defaultEncoding": "utf8",
+          "destroyed": false,
+          "emitClose": true,
+          "ended": false,
+          "ending": false,
+          "errorEmitted": false,
+          "finalCalled": false,
+          "finished": false,
+          "highWaterMark": 16384,
+          "lastBufferedRequest": null,
+          "length": 0,
+          "needDrain": false,
+          "objectMode": false,
+          "onwrite": [Function],
+          "pendingcb": 0,
+          "prefinished": false,
+          "sync": true,
+          "writecb": null,
+          "writelen": 0,
+          "writing": false,
+        },
+        "chunks": Array [],
+        "writable": true,
+      },
+    ],
+  },
+]
+`;
+
+exports[`build.update should reject when PR request statusCode > 201 3`] = `
+Array [
+  "git",
+  Array [
+    "config",
+    "--global",
+    "user.email",
+    "travis@travis-ci.org",
+  ],
+  Object {
+    "env": Object {
+      "GH_TOKEN": "xxx",
+      "TRAVIS_REPO_SLUG": "some/repo",
+    },
+    "stdio": Array [
+      "ignore",
+      OutStream {
+        "_events": Object {},
+        "_eventsCount": 0,
+        "_maxListeners": undefined,
+        "_writableState": WritableState {
+          "bufferProcessing": false,
+          "bufferedRequest": null,
+          "bufferedRequestCount": 0,
+          "corked": 0,
+          "corkedRequestsFree": Object {
+            "entry": null,
+            "finish": [Function],
+            "next": null,
+          },
+          "decodeStrings": true,
+          "defaultEncoding": "utf8",
+          "destroyed": false,
+          "emitClose": true,
+          "ended": false,
+          "ending": false,
+          "errorEmitted": false,
+          "finalCalled": false,
+          "finished": false,
+          "highWaterMark": 16384,
+          "lastBufferedRequest": null,
+          "length": 0,
+          "needDrain": false,
+          "objectMode": false,
+          "onwrite": [Function],
+          "pendingcb": 0,
+          "prefinished": false,
+          "sync": true,
+          "writecb": null,
+          "writelen": 0,
+          "writing": false,
+        },
+        "chunks": Array [],
+        "writable": true,
+      },
+    ],
+  },
+]
+`;
+
+exports[`build.update should reject when PR request statusCode > 201 4`] = `
+Array [
+  "git",
+  Array [
+    "config",
+    "--global",
+    "user.name",
+    "Travis CI",
+  ],
+  Object {
+    "env": Object {
+      "GH_TOKEN": "xxx",
+      "TRAVIS_REPO_SLUG": "some/repo",
+    },
+    "stdio": Array [
+      "ignore",
+      OutStream {
+        "_events": Object {},
+        "_eventsCount": 0,
+        "_maxListeners": undefined,
+        "_writableState": WritableState {
+          "bufferProcessing": false,
+          "bufferedRequest": null,
+          "bufferedRequestCount": 0,
+          "corked": 0,
+          "corkedRequestsFree": Object {
+            "entry": null,
+            "finish": [Function],
+            "next": null,
+          },
+          "decodeStrings": true,
+          "defaultEncoding": "utf8",
+          "destroyed": false,
+          "emitClose": true,
+          "ended": false,
+          "ending": false,
+          "errorEmitted": false,
+          "finalCalled": false,
+          "finished": false,
+          "highWaterMark": 16384,
+          "lastBufferedRequest": null,
+          "length": 0,
+          "needDrain": false,
+          "objectMode": false,
+          "onwrite": [Function],
+          "pendingcb": 0,
+          "prefinished": false,
+          "sync": true,
+          "writecb": null,
+          "writelen": 0,
+          "writing": false,
+        },
+        "chunks": Array [],
+        "writable": true,
+      },
+    ],
+  },
+]
+`;
+
+exports[`build.update should reject when PR request statusCode > 201 5`] = `
+Array [
+  "git",
+  Array [
+    "add",
+    ".",
+  ],
+  Object {
+    "env": Object {
+      "GH_TOKEN": "xxx",
+      "TRAVIS_REPO_SLUG": "some/repo",
+    },
+    "stdio": Array [
+      "ignore",
+      OutStream {
+        "_events": Object {},
+        "_eventsCount": 0,
+        "_maxListeners": undefined,
+        "_writableState": WritableState {
+          "bufferProcessing": false,
+          "bufferedRequest": null,
+          "bufferedRequestCount": 0,
+          "corked": 0,
+          "corkedRequestsFree": Object {
+            "entry": null,
+            "finish": [Function],
+            "next": null,
+          },
+          "decodeStrings": true,
+          "defaultEncoding": "utf8",
+          "destroyed": false,
+          "emitClose": true,
+          "ended": false,
+          "ending": false,
+          "errorEmitted": false,
+          "finalCalled": false,
+          "finished": false,
+          "highWaterMark": 16384,
+          "lastBufferedRequest": null,
+          "length": 0,
+          "needDrain": false,
+          "objectMode": false,
+          "onwrite": [Function],
+          "pendingcb": 0,
+          "prefinished": false,
+          "sync": true,
+          "writecb": null,
+          "writelen": 0,
+          "writing": false,
+        },
+        "chunks": Array [],
+        "writable": true,
+      },
+    ],
+  },
+]
+`;
+
+exports[`build.update should reject when PR request statusCode > 201 6`] = `
+Array [
+  "git",
+  Array [
+    "commit",
+    "-m",
+    "\\"chore(house-keeping): Updates date\\"",
+  ],
+  Object {
+    "env": Object {
+      "GH_TOKEN": "xxx",
+      "TRAVIS_REPO_SLUG": "some/repo",
+    },
+    "stdio": Array [
+      "ignore",
+      OutStream {
+        "_events": Object {},
+        "_eventsCount": 0,
+        "_maxListeners": undefined,
+        "_writableState": WritableState {
+          "bufferProcessing": false,
+          "bufferedRequest": null,
+          "bufferedRequestCount": 0,
+          "corked": 0,
+          "corkedRequestsFree": Object {
+            "entry": null,
+            "finish": [Function],
+            "next": null,
+          },
+          "decodeStrings": true,
+          "defaultEncoding": "utf8",
+          "destroyed": false,
+          "emitClose": true,
+          "ended": false,
+          "ending": false,
+          "errorEmitted": false,
+          "finalCalled": false,
+          "finished": false,
+          "highWaterMark": 16384,
+          "lastBufferedRequest": null,
+          "length": 0,
+          "needDrain": false,
+          "objectMode": false,
+          "onwrite": [Function],
+          "pendingcb": 0,
+          "prefinished": false,
+          "sync": true,
+          "writecb": null,
+          "writelen": 0,
+          "writing": false,
+        },
+        "chunks": Array [],
+        "writable": true,
+      },
+    ],
+  },
+]
+`;
+
+exports[`build.update should reject when PR request statusCode > 201 7`] = `
+Array [
+  "git",
+  Array [
+    "remote",
+    "add",
+    "origin-with-token",
+    "https://xxx@github.com/some/repo.git",
+  ],
+  Object {
+    "env": Object {
+      "GH_TOKEN": "xxx",
+      "TRAVIS_REPO_SLUG": "some/repo",
+    },
+    "stdio": Array [
+      "ignore",
+      OutStream {
+        "_events": Object {},
+        "_eventsCount": 0,
+        "_maxListeners": undefined,
+        "_writableState": WritableState {
+          "bufferProcessing": false,
+          "bufferedRequest": null,
+          "bufferedRequestCount": 0,
+          "corked": 0,
+          "corkedRequestsFree": Object {
+            "entry": null,
+            "finish": [Function],
+            "next": null,
+          },
+          "decodeStrings": true,
+          "defaultEncoding": "utf8",
+          "destroyed": false,
+          "emitClose": true,
+          "ended": false,
+          "ending": false,
+          "errorEmitted": false,
+          "finalCalled": false,
+          "finished": false,
+          "highWaterMark": 16384,
+          "lastBufferedRequest": null,
+          "length": 0,
+          "needDrain": false,
+          "objectMode": false,
+          "onwrite": [Function],
+          "pendingcb": 0,
+          "prefinished": false,
+          "sync": true,
+          "writecb": null,
+          "writelen": 0,
+          "writing": false,
+        },
+        "chunks": Array [],
+        "writable": true,
+      },
+    ],
+  },
+]
+`;
+
+exports[`build.update should reject when PR request statusCode > 201 8`] = `
+Object {
+  "headers": Object {
+    "Authorization": "token xxx",
+    "Content-Length": 75,
+    "Content-Type": "application/json",
+  },
+  "hostname": "api.github.com",
+  "method": "POST",
+  "path": "/repos/some/repo/pulls",
+  "port": 443,
+}
+`;
+
+exports[`build.update should succeed when all good ;-) 1`] = `
+Array [
+  "npm",
+  Array [
+    "run",
+    "update",
+  ],
+  Object {
+    "env": Object {
+      "GH_TOKEN": "xxx",
+      "TRAVIS_REPO_SLUG": "some/repo",
+    },
+    "stdio": Array [
+      "ignore",
+      OutStream {
+        "_events": Object {},
+        "_eventsCount": 0,
+        "_maxListeners": undefined,
+        "_writableState": WritableState {
+          "bufferProcessing": false,
+          "bufferedRequest": null,
+          "bufferedRequestCount": 0,
+          "corked": 0,
+          "corkedRequestsFree": Object {
+            "entry": null,
+            "finish": [Function],
+            "next": null,
+          },
+          "decodeStrings": true,
+          "defaultEncoding": "utf8",
+          "destroyed": false,
+          "emitClose": true,
+          "ended": false,
+          "ending": false,
+          "errorEmitted": false,
+          "finalCalled": false,
+          "finished": false,
+          "highWaterMark": 16384,
+          "lastBufferedRequest": null,
+          "length": 0,
+          "needDrain": false,
+          "objectMode": false,
+          "onwrite": [Function],
+          "pendingcb": 0,
+          "prefinished": false,
+          "sync": true,
+          "writecb": null,
+          "writelen": 0,
+          "writing": false,
+        },
+        "chunks": Array [
+          "Pull request created. See https://foo.bar/baz
+",
+        ],
+        "writable": true,
+      },
+    ],
+  },
+]
+`;
+
+exports[`build.update should succeed when all good ;-) 2`] = `
+Array [
+  "git",
+  Array [
+    "diff-index",
+    "--quiet",
+    "HEAD",
+    "--",
+  ],
+  Object {
+    "env": Object {
+      "GH_TOKEN": "xxx",
+      "TRAVIS_REPO_SLUG": "some/repo",
+    },
+    "stdio": Array [
+      "ignore",
+      OutStream {
+        "_events": Object {},
+        "_eventsCount": 0,
+        "_maxListeners": undefined,
+        "_writableState": WritableState {
+          "bufferProcessing": false,
+          "bufferedRequest": null,
+          "bufferedRequestCount": 0,
+          "corked": 0,
+          "corkedRequestsFree": Object {
+            "entry": null,
+            "finish": [Function],
+            "next": null,
+          },
+          "decodeStrings": true,
+          "defaultEncoding": "utf8",
+          "destroyed": false,
+          "emitClose": true,
+          "ended": false,
+          "ending": false,
+          "errorEmitted": false,
+          "finalCalled": false,
+          "finished": false,
+          "highWaterMark": 16384,
+          "lastBufferedRequest": null,
+          "length": 0,
+          "needDrain": false,
+          "objectMode": false,
+          "onwrite": [Function],
+          "pendingcb": 0,
+          "prefinished": false,
+          "sync": true,
+          "writecb": null,
+          "writelen": 0,
+          "writing": false,
+        },
+        "chunks": Array [
+          "Pull request created. See https://foo.bar/baz
+",
+        ],
+        "writable": true,
+      },
+    ],
+  },
+]
+`;
+
+exports[`build.update should succeed when all good ;-) 3`] = `
+Array [
+  "git",
+  Array [
+    "config",
+    "--global",
+    "user.email",
+    "travis@travis-ci.org",
+  ],
+  Object {
+    "env": Object {
+      "GH_TOKEN": "xxx",
+      "TRAVIS_REPO_SLUG": "some/repo",
+    },
+    "stdio": Array [
+      "ignore",
+      OutStream {
+        "_events": Object {},
+        "_eventsCount": 0,
+        "_maxListeners": undefined,
+        "_writableState": WritableState {
+          "bufferProcessing": false,
+          "bufferedRequest": null,
+          "bufferedRequestCount": 0,
+          "corked": 0,
+          "corkedRequestsFree": Object {
+            "entry": null,
+            "finish": [Function],
+            "next": null,
+          },
+          "decodeStrings": true,
+          "defaultEncoding": "utf8",
+          "destroyed": false,
+          "emitClose": true,
+          "ended": false,
+          "ending": false,
+          "errorEmitted": false,
+          "finalCalled": false,
+          "finished": false,
+          "highWaterMark": 16384,
+          "lastBufferedRequest": null,
+          "length": 0,
+          "needDrain": false,
+          "objectMode": false,
+          "onwrite": [Function],
+          "pendingcb": 0,
+          "prefinished": false,
+          "sync": true,
+          "writecb": null,
+          "writelen": 0,
+          "writing": false,
+        },
+        "chunks": Array [
+          "Pull request created. See https://foo.bar/baz
+",
+        ],
+        "writable": true,
+      },
+    ],
+  },
+]
+`;
+
+exports[`build.update should succeed when all good ;-) 4`] = `
+Array [
+  "git",
+  Array [
+    "config",
+    "--global",
+    "user.name",
+    "Travis CI",
+  ],
+  Object {
+    "env": Object {
+      "GH_TOKEN": "xxx",
+      "TRAVIS_REPO_SLUG": "some/repo",
+    },
+    "stdio": Array [
+      "ignore",
+      OutStream {
+        "_events": Object {},
+        "_eventsCount": 0,
+        "_maxListeners": undefined,
+        "_writableState": WritableState {
+          "bufferProcessing": false,
+          "bufferedRequest": null,
+          "bufferedRequestCount": 0,
+          "corked": 0,
+          "corkedRequestsFree": Object {
+            "entry": null,
+            "finish": [Function],
+            "next": null,
+          },
+          "decodeStrings": true,
+          "defaultEncoding": "utf8",
+          "destroyed": false,
+          "emitClose": true,
+          "ended": false,
+          "ending": false,
+          "errorEmitted": false,
+          "finalCalled": false,
+          "finished": false,
+          "highWaterMark": 16384,
+          "lastBufferedRequest": null,
+          "length": 0,
+          "needDrain": false,
+          "objectMode": false,
+          "onwrite": [Function],
+          "pendingcb": 0,
+          "prefinished": false,
+          "sync": true,
+          "writecb": null,
+          "writelen": 0,
+          "writing": false,
+        },
+        "chunks": Array [
+          "Pull request created. See https://foo.bar/baz
+",
+        ],
+        "writable": true,
+      },
+    ],
+  },
+]
+`;
+
+exports[`build.update should succeed when all good ;-) 5`] = `
+Array [
+  "git",
+  Array [
+    "add",
+    ".",
+  ],
+  Object {
+    "env": Object {
+      "GH_TOKEN": "xxx",
+      "TRAVIS_REPO_SLUG": "some/repo",
+    },
+    "stdio": Array [
+      "ignore",
+      OutStream {
+        "_events": Object {},
+        "_eventsCount": 0,
+        "_maxListeners": undefined,
+        "_writableState": WritableState {
+          "bufferProcessing": false,
+          "bufferedRequest": null,
+          "bufferedRequestCount": 0,
+          "corked": 0,
+          "corkedRequestsFree": Object {
+            "entry": null,
+            "finish": [Function],
+            "next": null,
+          },
+          "decodeStrings": true,
+          "defaultEncoding": "utf8",
+          "destroyed": false,
+          "emitClose": true,
+          "ended": false,
+          "ending": false,
+          "errorEmitted": false,
+          "finalCalled": false,
+          "finished": false,
+          "highWaterMark": 16384,
+          "lastBufferedRequest": null,
+          "length": 0,
+          "needDrain": false,
+          "objectMode": false,
+          "onwrite": [Function],
+          "pendingcb": 0,
+          "prefinished": false,
+          "sync": true,
+          "writecb": null,
+          "writelen": 0,
+          "writing": false,
+        },
+        "chunks": Array [
+          "Pull request created. See https://foo.bar/baz
+",
+        ],
+        "writable": true,
+      },
+    ],
+  },
+]
+`;
+
+exports[`build.update should succeed when all good ;-) 6`] = `
+Array [
+  "git",
+  Array [
+    "commit",
+    "-m",
+    "\\"chore(house-keeping): Updates date\\"",
+  ],
+  Object {
+    "env": Object {
+      "GH_TOKEN": "xxx",
+      "TRAVIS_REPO_SLUG": "some/repo",
+    },
+    "stdio": Array [
+      "ignore",
+      OutStream {
+        "_events": Object {},
+        "_eventsCount": 0,
+        "_maxListeners": undefined,
+        "_writableState": WritableState {
+          "bufferProcessing": false,
+          "bufferedRequest": null,
+          "bufferedRequestCount": 0,
+          "corked": 0,
+          "corkedRequestsFree": Object {
+            "entry": null,
+            "finish": [Function],
+            "next": null,
+          },
+          "decodeStrings": true,
+          "defaultEncoding": "utf8",
+          "destroyed": false,
+          "emitClose": true,
+          "ended": false,
+          "ending": false,
+          "errorEmitted": false,
+          "finalCalled": false,
+          "finished": false,
+          "highWaterMark": 16384,
+          "lastBufferedRequest": null,
+          "length": 0,
+          "needDrain": false,
+          "objectMode": false,
+          "onwrite": [Function],
+          "pendingcb": 0,
+          "prefinished": false,
+          "sync": true,
+          "writecb": null,
+          "writelen": 0,
+          "writing": false,
+        },
+        "chunks": Array [
+          "Pull request created. See https://foo.bar/baz
+",
+        ],
+        "writable": true,
+      },
+    ],
+  },
+]
+`;
+
+exports[`build.update should succeed when all good ;-) 7`] = `
+Array [
+  "git",
+  Array [
+    "remote",
+    "add",
+    "origin-with-token",
+    "https://xxx@github.com/some/repo.git",
+  ],
+  Object {
+    "env": Object {
+      "GH_TOKEN": "xxx",
+      "TRAVIS_REPO_SLUG": "some/repo",
+    },
+    "stdio": Array [
+      "ignore",
+      OutStream {
+        "_events": Object {},
+        "_eventsCount": 0,
+        "_maxListeners": undefined,
+        "_writableState": WritableState {
+          "bufferProcessing": false,
+          "bufferedRequest": null,
+          "bufferedRequestCount": 0,
+          "corked": 0,
+          "corkedRequestsFree": Object {
+            "entry": null,
+            "finish": [Function],
+            "next": null,
+          },
+          "decodeStrings": true,
+          "defaultEncoding": "utf8",
+          "destroyed": false,
+          "emitClose": true,
+          "ended": false,
+          "ending": false,
+          "errorEmitted": false,
+          "finalCalled": false,
+          "finished": false,
+          "highWaterMark": 16384,
+          "lastBufferedRequest": null,
+          "length": 0,
+          "needDrain": false,
+          "objectMode": false,
+          "onwrite": [Function],
+          "pendingcb": 0,
+          "prefinished": false,
+          "sync": true,
+          "writecb": null,
+          "writelen": 0,
+          "writing": false,
+        },
+        "chunks": Array [
+          "Pull request created. See https://foo.bar/baz
+",
+        ],
+        "writable": true,
+      },
+    ],
+  },
+]
+`;
+
+exports[`build.update should succeed when all good ;-) 8`] = `
+Object {
+  "headers": Object {
+    "Authorization": "token xxx",
+    "Content-Length": 75,
+    "Content-Type": "application/json",
+  },
+  "hostname": "api.github.com",
+  "method": "POST",
+  "path": "/repos/some/repo/pulls",
+  "port": 443,
+}
+`;
