@@ -8,6 +8,7 @@ fi
 
 if [[ "$TRAVIS_BRANCH" != "master"]]; then
   echo "Not in master. Ignoring..."
+  exit 0
 fi
 
 npm run update
