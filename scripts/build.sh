@@ -6,6 +6,10 @@ if [[ "$TRAVIS_EVENT_TYPE" == "cron" ]]; then
   echo "Build triggered by Travis CI Cron"
 fi
 
+if [[ "$TRAVIS_BRANCH" != "master"]]; then
+  echo "Not in master. Ignoring..."
+fi
+
 npm run update
 
 git diff-index --quiet HEAD --
