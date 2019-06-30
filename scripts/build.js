@@ -53,6 +53,7 @@ const createPullRequest = (branch, opts) => new Promise((resolve, reject) => {
     path: `/repos/${opts.env.TRAVIS_REPO_SLUG}/pulls`,
     method: 'POST',
     headers: {
+      'User-Agent': 'Node.js https.request',
       Authorization: `token ${opts.env.GH_TOKEN}`,
       'Content-Type': 'application/json',
       'Content-Length': Buffer.byteLength(payload),
