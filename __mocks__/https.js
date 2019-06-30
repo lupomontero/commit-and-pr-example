@@ -14,7 +14,7 @@ class Response extends Readable {
   constructor({ statusCode, body, ...opts }) {
     super(opts);
     this.statusCode = statusCode;
-    this.body = JSON.stringify(body || {});
+    this.body = statusCode > 201 ? body : JSON.stringify(body);
   }
   _read() {
     this.push(this.body, 'utf8');
