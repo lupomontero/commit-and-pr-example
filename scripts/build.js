@@ -55,7 +55,7 @@ const createPullRequest = (branch, opts) => new Promise((resolve, reject) => {
     headers: {
       Authorization: `token ${opts.env.GH_TOKEN}`,
       'Content-Type': 'application/json',
-      // 'Content-Length': Buffer.byteLength(payload),
+      'Content-Length': Buffer.byteLength(payload),
     },
   });
 
