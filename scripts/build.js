@@ -55,21 +55,26 @@ const createPullRequest = (branch, opts) => new Promise((resolve, reject) => {
     headers: {
       Authorization: `token ${opts.env.GH_TOKEN}`,
       'Content-Type': 'application/json',
-      'Content-Length': Buffer.byteLength(payload),
+      // 'Content-Length': Buffer.byteLength(payload),
     },
   });
 
   req.on('error', reject);
 
   req.on('response', (resp) => {
-    if (resp.statusCode > 201) {
-      return reject(new Error(`Failed to create pull request (${resp.statusCode})`));
-    }
+    // if (resp.statusCode > 201) {
+    //   return reject(new Error(`Failed to create pull request (${resp.statusCode})`));
+    // }
     const chunks = [];
     resp.setEncoding('utf8');
     resp.on('data', chunk => chunks.push(chunk));
     resp.on('end', () => {
       const responseJson = JSON.parse(chunks.join(''));
+      console.log('statusCode', resp.statusCode);
+      console.log('responseJson', responseJson);
+      if (resp.statusCode > 201) {
+        return reject(new Error(`Failed to create pull request (${resp.statusCode})`));
+      }
       opts.stdio[1].write(`Pull request created. See ${responseJson.html_url}\n`);
       resolve();
     });
