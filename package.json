@@ -1,5 +1,5 @@
 {
-  "name": "travis-cron-update-example",
+  "name": "commit-and-pr-example",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,6 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "commit-and-pr": "github:lupomontero/commit-and-pr"
+    "commit-and-pr": "^1.0.3"
   }
 }

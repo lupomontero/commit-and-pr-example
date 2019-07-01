@@ -1,6 +1,10 @@
-# travis-cron-update-example
+# commit-and-pr-example
 
 Example usage of [`commit-and-pr`](https://github.com/lupomontero/commit-and-pr).
+
+```sh
+npm i --save-dev commit-and-pr
+```
 
 `package.json`:
 

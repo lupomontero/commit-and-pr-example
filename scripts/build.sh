@@ -5,5 +5,5 @@ if [[ "$TRAVIS_EVENT_TYPE" != "cron" || "$TRAVIS_NODE_VERSION" != "12" || "$TRAV
   npm test
 else
   echo "Triggered by cron. Running update script..."
-  npm run update && npm run commit-and-pr
+  npm run update && npm run commit-and-pr "chore(house-keeping): Updates date"
 fi
